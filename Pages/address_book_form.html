@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap ">
-        <link rel="stylesheet" href="../CSS/address_book_form.css">
+        <link rel="stylesheet" href="../CSS/address_book_form.css
+        ">
         <title>Address Book Form</title>
         <title>Document</title>
     </head>
@@ -125,10 +126,12 @@
                     placeholder="Enter Your phone number" required>
                     <error-output class="text-error" for="text"></error-output>
                 </div>
+                <!------------UC5 Onsubmit / Onreset event fired -------->
                 <div class="butttonParent" >
                     <div class="submit-reset" >
-                    <button type="submit" class="addbuttton submitButton abutton" id="submitButton" >Add</button>
+                    <button type="submit" class="addbuttton submitButton abutton" id="submitButton" >Add</button> <!--By giving a type value submit then when we click submit it fired the onsubmit function-->
                     <button type="reset" class="resetButtton buttton rebutton" >Reset</button>
+                    <!--By giving a type value reset then when we click reset it fired the onreset function-->
                     </div>
                 </div>
             </div>
